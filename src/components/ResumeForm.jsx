@@ -2,6 +2,7 @@ import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 import EducationComponent from "./education";
 import RadioGroupWithDescriptions from "./Avalibility";
 import YourComponent from "./Role";
+import ResumeUpload from "./ResumePdf";
 
 const ResumeForm = () => {
   return (
@@ -119,6 +120,7 @@ const ResumeForm = () => {
                 </div>
               </div>
             </div>
+            <ResumeUpload />
           </div>
 
           <div className="bg-gray-200 rounded-md p-8 border border-gray-700">
@@ -958,7 +960,6 @@ const ResumeForm = () => {
           </button>
         </div>
       </form>
-      
     </div>
   );
 };
